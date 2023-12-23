@@ -1,6 +1,8 @@
 import json
 from pendulum import datetime
 
+# Atualizacao 23:08
+
 from airflow.decorators import (
     dag,
     task,
