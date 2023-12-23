@@ -7,5 +7,6 @@ This repo stores the airflow configuration and DAGs for the Bossabyte project.
 
 - Download astro cli `curl -sSL install.astronomer.io | sudo bash -s`
 - On the Dags folder, each project folder is a git submodule pointing to another repo.
+- To add a submodule on the `dags/` folder, run ` git submodule add https://github.com/bossabyte/ALERJ.git`
 - Write your Python modules and DAG code on your repo, it will be automatically reflected on the airflow repo
 - To test your DAGs code, run `astro run <dag_name>` (your DAG name is the name of the DAG file without the `.py`) , i.e `astro run example_dag_basic`
