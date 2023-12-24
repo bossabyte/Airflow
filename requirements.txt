@@ -1,4 +1,5 @@
 # Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
+apache-airflow-providers-databricks
 distro==1.8.0
 et-xmlfile==1.1.0
 numpy==1.26.2
