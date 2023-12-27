@@ -1,3 +1,4 @@
 [submodule "dags/ALERJ"]
 	path = dags/ALERJ
 	url = https://github.com/bossabyte/ALERJ.git
+	branch = main
